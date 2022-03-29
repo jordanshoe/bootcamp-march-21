@@ -1,0 +1,124 @@
+/* reset declaration */
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: tomato;
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    /* overflow: auto; */
+    /* overflow: scroll; */
+    overflow: hidden;
+    box-shadow: 3px 3px 5px gray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header p{
+    background-color: teal;
+    width: 500px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding: 15px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header a{
+    background-color: aqua;
+    width: 500px;/*no support*/
+    margin-left: 10px;
+    margin-bottom: 30px;/*no support*/
+    padding: 10px 15px 20px 25px;
+}
+.nav{
+    background-color: yellowgreen;
+    margin: 40px 10%;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    margin-bottom: -60px;
+    text-align: center;
+}
+.nav img{
+    background-color: magenta;
+    padding: 10px;
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    /* box-sizing: content-box; */
+    box-shadow: 3px 3px 5px gray;
+}
+.section{
+    background-color: gray;
+    height: 300px;
+    width: 50%;
+    margin: 50px 5% 30px 20%;
+    padding: 20px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.solid{
+    border: 10px solid tomato;
+    border-top: none;
+}
+.dotted{
+    border: 10px dotted teal;
+    border-width: 5px 15px 3px 2px;
+}
+.dashed{
+    border: 10px dashed crimson;
+    border-style: solid double dotted groove;
+}
+.double{
+    border: 10px double seagreen;
+    padding: 10px;
+    padding-left: 40px;
+    margin: 15px 30px;
+}
+.groove{
+    border: 10px groove purple;
+}
+.ridge{
+    border: 10px ridge darkblue;
+}
+.inset{
+    border: 10px  inset darkgreen ;
+}
+.outset{
+    border: 10px outset goldenrod;
+}
+.radius{
+    border: 10px solid black;
+    border-radius: 20px 100px 60px 5px ;
+}
+.circle{
+    border: 5px solid red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 20px;
+}
+.footer{
+    background-color: tomato;
+    padding: 20px;
+}
+.box-1{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: content-box;
+    margin: auto;
+}
+.box-2{
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px auto 0 auto;
+}

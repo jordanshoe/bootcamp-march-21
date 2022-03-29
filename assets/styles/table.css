@@ -1,0 +1,24 @@
+.table-1{
+    empty-cells: hide;
+    font-size: 20px;
+    /* border-collapse: separate; */
+    border-collapse: collapse;
+}
+table thead{
+    font-size: 30px;
+}
+table thead .t-title{
+    font-size: 1.5em;
+    color: red;
+    background-color: gray;
+}
+.table-2{
+    border-spacing: 10px 20px;
+    empty-cells: hide;
+    background: tomato url(../images/gar.jpg) no-repeat fixed center center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px black;
+    font-size: 20px;
+}
